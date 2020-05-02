@@ -9,7 +9,7 @@ The whole decision tree can be seen by downloading the .drawio file from github 
 It utilizes PowerMock to test that the bots logic is sound 
 
 
-To run:
+To run on developer mode:
 - Install Runemate
 - Create a Runemate Account 
 - Create a Run configuration that points to com.runmate.boot.BOOT and has the argument -sdk 
