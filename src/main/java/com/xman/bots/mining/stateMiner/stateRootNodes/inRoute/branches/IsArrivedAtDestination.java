@@ -9,13 +9,13 @@ import com.runemate.game.api.script.framework.tree.TreeTask;
 import com.xman.bots.mining.stateMiner.stateRootNodes.inRoute.leaves.SetStateToArea;
 import com.xman.bots.mining.stateMiner.universalLeafStates.Stop;
 
-public class ArriveAtDestination extends BranchTask {
+public class IsArrivedAtDestination extends BranchTask {
 
     private String area;
     private Area areaToGo;
     private Player player;
 
-    public ArriveAtDestination(String area, Area areaToGo){
+    public IsArrivedAtDestination(String area, Area areaToGo){
         this.area = area;
         this.areaToGo = areaToGo;
     }

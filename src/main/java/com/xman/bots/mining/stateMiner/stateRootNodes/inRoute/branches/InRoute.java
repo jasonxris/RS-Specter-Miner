@@ -57,6 +57,6 @@ public class InRoute extends BranchTask {
     public TreeTask failureTask() {
         Environment.getLogger().debug("Player is not in route");
         // Not in Route for some reason
-        return new ArriveAtDestination(locationToWalkTo, areaToWalkTo);
+        return new IsArrivedAtDestination(locationToWalkTo, areaToWalkTo);
     }
 }

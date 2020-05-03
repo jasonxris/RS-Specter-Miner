@@ -30,6 +30,7 @@ public class MineRock extends LeafTask {
             }
             else{
                 Camera.turnTo(mineableRock);
+
             }
         }
         else{
